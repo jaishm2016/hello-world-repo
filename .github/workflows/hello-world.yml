@@ -2,7 +2,7 @@ name: Hello World
 
 on:
     schedule:
-        - cron: "05,35 * * * *"
+        - cron: "*/5 * * * *"
     # push
 
 jobs:
